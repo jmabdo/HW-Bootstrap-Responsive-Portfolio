@@ -1,0 +1,227 @@
+* {
+	font-size: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	box-sizing: border-box;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 80px;
+  background: url("../images/light_honeycomb.png");
+}
+
+h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 26px;
+	color: #4aaaa5;
+	padding: 20px 10px 10px 20px;
+	font-weight: 700;
+}
+
+h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 22px;
+	color: #4aaaa5;
+	padding: 30px 10px 10px 5px;
+	font-weight: 700;
+}
+
+.navbar {
+	padding: 0px 20px 0px 20px;
+	border-bottom: 2px solid #bbbbbb;
+	background-color: #ffffff;
+	
+}
+
+.header-name {
+	color: #ffffff;
+}
+
+.links-right {
+	justify-content: flex-end;
+}
+
+.navbar-brand {
+	background-color: #4aaaa5;
+	padding: 25px;
+	font-family: 'Spinnaker', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.main-content {
+	margin-top: 100px;
+}
+
+.about {
+	width: 100%;
+	border: 1px solid #bbbbbb;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding: 15px;
+	margin-bottom: 100px;
+	background-color: #ffffff;
+}
+
+.connect {
+	
+	border: 1px solid #bbbbbb;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding: 10px;
+	margin-bottom: 50px;
+	background-color: #ffffff;
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 80px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #666666;
+  text-align: center;
+  color: #ffffff;
+  border-top: 6px solid #4aaaa5;
+  font-size: 12px;
+  padding-top: 8px;
+}
+
+.hr-main {
+	margin: 15px 0px 20px 0px;
+	background-color: #cccccc; 
+	height: 1px; 
+}
+
+.hr-connect {
+	margin: 15px 0px 20px 0px;
+	background-color: #cccccc; 
+	height: 1px; 
+	border: 0; 
+}
+
+.pro-pic {
+	max-width: 300px;
+	max-height: 330px;
+	float: left;
+	margin: 10px 20px 0px;
+
+}
+
+.github {
+	height: 60px;
+	width: 60px;
+	margin: 10px 0px 20px 5px;
+}
+
+.linkedin {
+	height: 60px;
+	width: 60px;
+	margin: 10px 0px 20px 9px;
+}
+
+.stackoverflow {
+	height: 75px;
+	width: 75px;
+	margin: 0px 0px 20px 0px;
+}
+
+.gallery-images{
+    border: 1px solid #ccc;	
+}
+
+.image-overlay1, .image-overlay2, .image-overlay3, .image-overlay4, .image-overlay5 {
+	position: relative;
+	width:280px;
+	margin:20px;
+}
+ 
+.text-overlay1, .text-overlay2, .text-overlay3, .text-overlay4, .text-overlay5 {
+	position: absolute; 
+    top: 130px;
+    left: 0px; 
+    width: 100%; 
+    padding: 20px 0px 20px 10px;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	float: left;
+}
+
+
+
+@media(max-width: 768px){
+
+.navbar {
+	background-color: #4aaaa5;
+}
+
+.navbar-brand {
+	width:100%;
+	text-align: right;
+	font-size:30px;
+	font-weight: bold;
+	margin-left:30px;
+}
+
+.text-overlay1, .text-overlay2, .text-overlay3, .text-overlay4, .text-overlay5 {
+    top: 250px;
+
+}
+
+.image-overlay1, .image-overlay2, .image-overlay3, .image-overlay4, .image-overlay5 {
+	position: relative;
+	width:480px;
+	margin:20px;
+}
+}
+
+@media (max-width: 992px) {
+.github {
+	height: 60px;
+	width: 60px;
+	margin: 10px 0px 20px 80px;
+	}
+
+.linkedin {
+	height: 60px;
+	width: 60px;
+	margin: 10px 0px 20px 50px;
+	}
+}
+
+@media(min-width: 1200px){
+.navbar-brand{
+	margin-left: 75px;
+	}
+.connect {
+	padding: 0px 20px 0px 20px;
+	}
+
+.github {
+	margin-left: 10px;
+	}
+
+
+
+}
+
+@media(max-width: 1200px){
+
+.connect {
+	padding-right:20px;
+}
+
+.image-overlay1, .image-overlay2, .image-overlay3, .image-overlay4, .image-overlay5 {
+	margin: 20px 0px 20px 0px;
+}
+
+}
+
+
